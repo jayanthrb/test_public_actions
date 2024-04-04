@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: Hello
-        uses: jayanthrb/test_javascript_actions@v1.2
+        uses: jayanthrb/test_javascript_actions@6142b533b01d54ba32804963d9de8ccb6e639ae7
         with:
           who-to-greet: 'Mona the octocat'
       - name: Get the output time
